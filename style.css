@@ -62,3 +62,12 @@ a {
 .nav-profile img {
     border-radius: 50%;
 }
+
+.logoBuscador {
+    height: 252px;
+}
+
+.logoBuscador__logo {
+    display: flex;
+    justify-content: center;
+}
