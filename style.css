@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+    font-size: 65.5%; /* 10px = 1rem */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #202124;
+    color: #bdc1c6;
+    font-size: 14px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 6px;
+    height: 48px;
+}
+
+.nav * {
+    margin-right: 15px;
+}
+
+.nav *:last-of-type {
+    margin-right: 0;
+}
+
+.nav-menulinks {
+    width: 48px;
+}
