@@ -25,16 +25,40 @@ a {
     align-items: center;
     padding: 6px;
     height: 48px;
+    font-size: 13px;
 }
 
-.nav * {
-    margin-right: 15px;
+.nav-links {
+    width: 136px;
+    display: flex;
+    justify-content: center;
 }
 
-.nav *:last-of-type {
-    margin-right: 0;
+.nav-links a:first-child {
+    padding-right: 15px;
 }
 
 .nav-menulinks {
     width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menulinks img {
+    height: 24px;
+}
+
+.nav-profile {
+    padding-right: 4px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-profile img {
+    border-radius: 50%;
 }
