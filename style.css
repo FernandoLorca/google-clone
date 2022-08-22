@@ -62,3 +62,45 @@ a {
 .nav-profile img {
     border-radius: 50%;
 }
+
+button {
+    all: unset;
+}
+
+.btnsCta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnsCta__btns button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    color: white;
+    padding: 0 16px;
+    line-height: 27px;
+    margin: 11px 4px;
+    border-radius: 4px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.btnsCta__btns button:hover {
+    border: 1px solid #5f6368;
+}
+
+.btnsCta__btns button:focus {
+    border: 1px solid #5f6368;
+}
+
+.btnsCta__txt {
+    font-size: 13px;
+}
+
+.btnsCta__txt p a {
+    color: #8ab4f8 ;
+}
+
+.btnsCta__txt p a:hover {
+    text-decoration: underline;
+}
