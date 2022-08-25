@@ -81,6 +81,11 @@ button {
   align-items: center;
 }
 
+.btnsCta__btns {
+  height: 58px;
+  padding-top: 18px;
+}
+
 .btnsCta__btns button {
   background-color: #303134;
   border: 1px solid #303134;
@@ -113,14 +118,16 @@ button {
   text-decoration: underline;
 }
 
-.logoBuscador {
-  height: 252px;
-}
-
 .logoBuscador__logo {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
   margin-bottom: 20px;
+  height: 203px;
+}
+
+.logoBuscador__logo img {
+  max-height: 92px;
 }
 
 .logoBuscador main {
