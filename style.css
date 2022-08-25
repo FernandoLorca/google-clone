@@ -1,142 +1,142 @@
 html {
-    box-sizing: border-box;
-    font-size: 65.5%; /* 10px = 1rem */
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-size: 65.5%; /* 10px = 1rem */
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #202124;
-    color: #bdc1c6;
-    font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #202124;
+  color: #bdc1c6;
+  font-size: 14px;
 }
 
 a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 input {
-    all: unset;
+  all: unset;
 }
 
 :focus {
-    outline: none;
+  outline: none;
 }
 
 .nav {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 6px;
-    height: 48px;
-    font-size: 13px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 6px;
+  height: 48px;
+  font-size: 13px;
 }
 
 .nav-links {
-    width: 136px;
-    display: flex;
-    justify-content: center;
+  width: 136px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-links a:first-child {
-    padding-right: 15px;
+  padding-right: 15px;
 }
 
 .nav-menulinks {
-    width: 48px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 48px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-menulinks img {
-    height: 24px;
+  height: 24px;
 }
 
 .nav-profile {
-    padding-right: 4px;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding-right: 4px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-profile img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
-<<<<<<< HEAD
 button {
-    all: unset;
+  all: unset;
 }
 
 .btnsCta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .btnsCta__btns button {
-    background-color: #303134;
-    border: 1px solid #303134;
-    color: white;
-    padding: 0 16px;
-    line-height: 27px;
-    margin: 11px 4px;
-    border-radius: 4px;
-    height: 36px;
-    cursor: pointer;
+  background-color: #303134;
+  border: 1px solid #303134;
+  color: white;
+  padding: 0 16px;
+  line-height: 27px;
+  margin: 11px 4px;
+  border-radius: 4px;
+  height: 36px;
+  cursor: pointer;
 }
 
 .btnsCta__btns button:hover {
-    border: 1px solid #5f6368;
+  border: 1px solid #5f6368;
 }
 
 .btnsCta__btns button:focus {
-    border: 1px solid #5f6368;
+  border: 1px solid #5f6368;
 }
 
 .btnsCta__txt {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .btnsCta__txt p a {
-    color: #8ab4f8 ;
+  color: #8ab4f8;
 }
 
 .btnsCta__txt p a:hover {
-    text-decoration: underline;
-=======
+  text-decoration: underline;
+}
+
 .logoBuscador {
-    height: 252px;
+  height: 252px;
 }
 
 .logoBuscador__logo {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .logoBuscador main {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .logoBuscador__buscador {
-    width: 582px;
-    height: 44px;
-    border: 1px solid #5f6368;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 14px;
+  width: 582px;
+  height: 44px;
+  border: 1px solid #5f6368;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
 }
 
 /* .logoBuscador__buscador:hover {
@@ -150,34 +150,32 @@ button {
 } */
 
 .logoBuscador__buscador--lupa {
-    width: 20px;
-    height: 20px;
+  width: 20px;
+  height: 20px;
 }
 
 .logoBuscador__buscador--lupa img {
-    height: 100%;
+  height: 100%;
 }
 
 .logoBuscador__buscador--input {
-    padding: 0 8px 0 13px;
-    width: 90%;
+  padding: 0 8px 0 13px;
+  width: 90%;
 }
 
-
 .logoBuscador__buscador--input input {
-    width: 100%;
+  width: 100%;
 }
 
 .logoBuscador__buscador--mic {
-    width: 24px;
-    height: 24px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
 }
 
 .logoBuscador__buscador--mic img {
-    height: 24px;
->>>>>>> logo-google-y-buscador
+  height: 24px;
 }
