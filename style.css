@@ -19,6 +19,14 @@ a {
     text-decoration: none;
 }
 
+input {
+    all: unset;
+}
+
+:focus {
+    outline: none;
+}
+
 .nav {
     display: flex;
     justify-content: end;
@@ -63,6 +71,7 @@ a {
     border-radius: 50%;
 }
 
+<<<<<<< HEAD
 button {
     all: unset;
 }
@@ -103,4 +112,72 @@ button {
 
 .btnsCta__txt p a:hover {
     text-decoration: underline;
+=======
+.logoBuscador {
+    height: 252px;
+}
+
+.logoBuscador__logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logoBuscador main {
+    display: flex;
+    justify-content: center;
+}
+
+.logoBuscador__buscador {
+    width: 582px;
+    height: 44px;
+    border: 1px solid #5f6368;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+}
+
+/* .logoBuscador__buscador:hover {
+    background-color: #303134;
+    border: 1px solid #303134;
+}
+
+.logoBuscador__buscador:focus {
+    background-color: #303134;
+    border: 1px solid #303134;
+} */
+
+.logoBuscador__buscador--lupa {
+    width: 20px;
+    height: 20px;
+}
+
+.logoBuscador__buscador--lupa img {
+    height: 100%;
+}
+
+.logoBuscador__buscador--input {
+    padding: 0 8px 0 13px;
+    width: 90%;
+}
+
+
+.logoBuscador__buscador--input input {
+    width: 100%;
+}
+
+.logoBuscador__buscador--mic {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoBuscador__buscador--mic img {
+    height: 24px;
+>>>>>>> logo-google-y-buscador
 }
